@@ -1,0 +1,79 @@
+# depslib dependency file v1.0
+1621622817 source:c:\users\gmarquez\desktop\abm - final belen\abm_final\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"empleado.h"
+	"sector.h"
+	"informes.h"
+	"comida.h"
+	"almuerzo.h"
+	"datawarehouse.h"
+
+1621558993 c:\users\gmarquez\desktop\abm - final belen\abm_final\empleado.h
+	"sector.h"
+	"fecha.h"
+
+1621623213 c:\users\gmarquez\desktop\abm - final belen\abm_final\sector.h
+	"empleado.h"
+	"comida.h"
+	"almuerzo.h"
+
+1621558956 source:c:\users\gmarquez\desktop\abm - final belen\abm_final\sector.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"sector.h"
+
+1621099402 c:\users\gmarquez\desktop\abm - final belen\abm_final\datawarehouse.h
+	"empleado.h"
+	"fecha.h"
+	"almuerzo.h"
+
+1621559055 source:c:\users\gmarquez\desktop\abm - final belen\abm_final\empleado.c
+	"empleado.h"
+	"sector.h"
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
+1621104249 source:c:\users\gmarquez\desktop\abm - final belen\abm_final\datawarehouse.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"datawarehouse.h"
+
+1621009112 source:c:\users\gmarquez\desktop\abm - final belen\abm_final\informes.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"informes.h"
+	"empleado.h"
+	"sector.h"
+
+1621009118 c:\users\gmarquez\desktop\abm - final belen\abm_final\informes.h
+	"empleado.h"
+
+1621559279 source:c:\users\gmarquez\desktop\abm - final belen\abm_final\almuerzo.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"almuerzo.h"
+	"comida.h"
+
+1621623312 c:\users\gmarquez\desktop\abm - final belen\abm_final\almuerzo.h
+	"empleado.h"
+	"sector.h"
+	"comida.h"
+	"fecha.h"
+
+1621010725 c:\users\gmarquez\desktop\abm - final belen\abm_final\fecha.h
+
+1621017038 source:c:\users\gmarquez\desktop\abm - final belen\abm_final\comida.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"comida.h"
+
+1621017052 c:\users\gmarquez\desktop\abm - final belen\abm_final\comida.h
+
